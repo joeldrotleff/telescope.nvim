@@ -560,7 +560,7 @@ internal.oldfiles = function(opts)
 
   pickers
     .new(opts, {
-      prompt_title = "Oldfiles",
+      prompt_title = "OLDFILES",
       __locations_input = true,
       finder = finders.new_table {
         results = results,
